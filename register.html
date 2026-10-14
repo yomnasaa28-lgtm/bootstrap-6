@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="background-color: #f6f8ff;">
+
+    <!-- start header register home section  -->
+    <header class="header-register mt-5  ">
+        <div class="container">
+            <div class="row">
+                <div class="md:col-6">
+                    <img src="img/56f58c5bbae6320e1aa5d36445fd722b.jpg" class="w-75">
+                </div>
+                <div class="md:col-6">
+                    <h2 class="fg-black">Create Account</h2>
+                    <h5 class="fg-4 mb-7 mt-4">Go ahead and sign up, let everyone <br> know how awesome you are!</h5>
+                    <h4 id="result"></h4>
+                    <form onsubmit="return validateValue()" action="success.html" method="post">
+                        <input id="user" type="text" placeholder="User Name" name=user
+                            class="fg-black form-control bg-white p-4 rounded-2 mb-7">
+
+                        <input id="email" type="text" placeholder="Email" name="email"
+                            class="fg-black form-control bg-white p-4 rounded-2 mb-7">
+
+                        <input id="pass" type="password" placeholder="Password" name="pass"
+                            class="fg-black form-control bg-white p-4 rounded-2 mb-7">
+
+                        <input id="confirm" type="password" placeholder="Confirm Password" name="confirm"
+                            class="fg-black form-control bg-white p-4 rounded-2 mb-7">
+                        <input type="submit" value="Create New Account" class="btn-solid theme-primary w-100">
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <!-- end header register home section  -->
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
